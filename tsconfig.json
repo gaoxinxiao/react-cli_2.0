@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6","esnext", "dom"],
+    "allowJs": true, 
+    "jsx": "react", 
+    "sourceMap": true, 
+    "downlevelIteration": true, 
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true, 
+    "experimentalDecorators": true, 
+    "skipLibCheck": true,
+    "allowUnreachableCode": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "src/**/**.js"
+  ]
+}
