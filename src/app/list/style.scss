@@ -1,0 +1,18 @@
+
+#app{
+    height: 100%;
+    width: 100%;
+}
+
+.list{
+    p{
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        border-top: 1px solid #Ddd;
+        &:nth-child(odd){
+            background: red;
+        }
+    }
+}
+
