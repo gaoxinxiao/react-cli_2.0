@@ -7,9 +7,11 @@ import ListError from './app/listError'
 class App extends React.Component {
     render() {
         return <>
-            <Route path='/home' component={Home} />
-            <Route path='/list' component={List} />
-            <Route path='/listError' component={ListError} />
+            美团页面
+            <button onClick={(e) => {
+                e.preventDefault()
+                window.location.href = 'http://localhost:8080/'
+            }}>跳中转页</button>
         </>
     }
 }
