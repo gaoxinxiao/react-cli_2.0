@@ -1,3 +1,3 @@
 import React from 'react'
 
-export default () => <p>{'懒惰的高鑫效'}</p>
+export default () => <p>{'懒惰的令狐冲'}</p>
